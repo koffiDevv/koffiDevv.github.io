@@ -16,14 +16,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
 
-
-  <!-- Leaflet -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-
-  
-
   <!--Google fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500">
 
@@ -46,13 +38,7 @@
       padding: 0;
       overflow-x: hidden;
     }
-
-
-    #map{
-      height: 20rem;
-    }
   </style>
-
 
 </head>
 
@@ -147,7 +133,7 @@
             <li class="nav-item nav-item__has-dropdown">
               <a class="nav-link dropdown-toggle adjust" data-toggle="dropdown" href="#">ETUDIANTS</a>
               <ul class="dropdown-menu">
-                <li><a href="vie-estudiantine.html" class="nav-link__list adjust">Vie Estudiantine</a></li>
+                <li><a href="#" class="nav-link__list adjust">Vie Estudiantine</a></li>
                 <li><a href="centre-apprentissage.html" class="nav-link__list adjust">Centre d'Apprentissage</a></li>
                 <li><a href="developpement-carriere.html" class="nav-link__list adjust">Developpement De Carriere</a>
                 </li>
@@ -160,7 +146,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link adjust" href="#">CONTACTS</a>
+              <a class="nav-link adjust" href="contact.html">CONTACTS</a>
             </li>
 
           </ul>
@@ -170,117 +156,125 @@
   </nav> <!-- END ec-nav -->
 
 
-
-<div class="py-5 bg-cover" data-dark-overlay="6" style="background:url(assets/img/1920/cover.jpg) no-repeat">
-  <div class="container">
-    <h2 class="text-white">
-      Contactez Nous
-    </h2>
-    <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0">  
-      <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
-      <li class="breadcrumb-item"><a href="#">Contactez Nous</a></li>
-    </ol>
-  </div>
-</div>
-    
-   
-   
-   <div class="py-5 shadow-v2 position-relative">
-     <div class="container">
-       <div class="row">
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-mobile"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">(+225)22 43 32 23 <br> (+225)47 96 65 10</h5>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-email"></i></span>
-             <div class="media-body ml-3">
-              <a href="mailto:info@avide-edu.org" class="h5">info@avide-edu.org</a>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-location-pin"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">Cocody, Riviera 2</h5> 
-              <p>En Face De La Nouvelle Gare De Woro Woro</p>
-             </div>
-           </div>
-         </div>
-         
-       </div>
-     </div>
-   </div>
-   
-   
-   
-   
-  <section class="padding-y-100 bg-light-v2">
-  <div class="container">
-    <div class="row">
-     <div class="col-12 text-center mb-5">
-        <h2>
-          ENVOYER NOUS UN MESSAGE
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
-      </div>
-      <div class="col-12 text-center">
-        <form action="#" method="POST" class="card p-4 p-md-5 shadow-v1">
-          <p class="lead mt-2">
-            Pour toutes vos questions et préoccupations, n'hésitez pas à remplir le formulaire ci-dessous <br>Nous nous ferons un plaisir de vous repondre !
-          </p>
-          <div class="row mt-5 mx-0">
-            <div class="col-md-4 mb-4">
-              <input type="text" class="form-control" placeholder="Nom Complet" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Email" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Numéro de telephone">
-            </div>
-            <div class="col-12">
-              <textarea type="email" class="form-control" placeholder="Votre Message ici" rows="7"></textarea>
-              <button type="submit" class="btn btn-primary mt-4">ENVOYER</button>
-            </div>
-          </div>
-        </form>  
-      </div>
-      
-    </div> <!-- END row-->
-  </div> <!-- END container-->
-</section>
-
-<section class="bg-light-v2">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2>
-           COMMENT NOUS RETROUVER ?
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
+  <div class="py-5 bg-cover text-white" data-dark-overlay="5"
+    style="background:url(assets/img/1920/cover.jpg) no-repeat">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Vie Estudiantine</h2>
+        </div>
+        <div class="col-md-6">
+          <ol class="breadcrumb justify-content-md-end bg-transparent">
+            <li class="breadcrumb-item">
+              <a href="index.html">Acceuil</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Vie Estudiantine</a>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<div class="col-12 text-center">
-  <div class="card p-4 p-md-5 shadow-v1">
-    <div id="map"></div>
-  </div>
-</div>
-  
+  <!-- LE CONTENU -->
+
+  <section class="pt-5 paddingBottom-150 bg-light-v2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/750/sortie.jpg" alt="">
+            <div class="card-body">
+              <h2>
+                <span class="text-primary">LA VIE ESTUDIANTINE A AVIDE EDUCATION</span>
+              </h2>
+              <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
+              <p>
+                Outre les activités scolaires, les activités parascolaires jouent un rôle important dans le
+                développement de l'étudiant en lui permettant de prendre des pauses productives, d'acquérir de
+                l'expérience, de rencontrer de nouvelles personnes et d'acquérir des compétences essentielles de la vie.
+              </p>
+
+              <h4 class="text-primary">Gouvernement des Estudiants</h4>
+
+              <p>
+                Le gouvernement des étudiants d'AVIDE Education est chargé de présenter les idées, les préoccupations et
+                les intérêts du corps étudiant au corps professoral et à l'administration. Ils sont également
+                responsables de l'organisation des événements et des sorties qui ont lieu à travers l'année scolaire. Il
+                est composé d'un président, d'un vice-président, d'un secrétaire et d'un trésorier qui sont élus au
+                début de chaque année scolaire. Par le biais du gouvernement étudiant, les étudiants développent leurs
+                compétences en leadership et en communication mais peuvent également jouer un rôle actif dans les
+                changements qu'ils veulent voir dans leur école.
+              </p>
+                
+              
+
+              <h4 class="text-primary">Club Anglais</h4>
+                
+              <p>
+                Le but du club anglais est de redonner à la communautè en partageant le don de la langue anglaise avec
+                les élèves de primaire et de secondaire dans les écoles français. Le club est ouvert à tous les
+                étudiants.
+              </p>
+
+              <p style="font-style:italic">
+                Les étudiants sont autorisés à créer leurs propres clubs auxquels d'autres étudiants peuvent adhérer,
+                avec l'approbation de l'administration.
+              </p>
+              
+              
+            </div> <!-- END card-body-->
+          </div> <!-- END card-->
+        </div> <!-- END col-lg-9 -->
+
+        <aside class="col-lg-3 mt-4">
+
+          <div class="widget">
+            <h2 class="widget-title">
+              Top Evenements
+            </h2>
+            <div class="mb-4">
+              <a href="news-1.html">
+                <img src="assets/img/blog/recent/r1.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-1.html">
+                  Partenariat Avide Education Et Cozbaz
+                </a>
+              </h2>
+            </div>
+            <div class="mb-4">
+              <a href="news-2.html">
+                <img src="assets/img/blog/recent/r2.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-2.html">
+                  Remises Des Diplomes Aux Bachelors
+                </a>
+              </h2>
+            </div>
+
+            <div class="mb-4">
+              <a href="news-3.html">
+                <img src="assets/img/blog/recent/r3.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-3.html">
+                  La Ceremonie De Remise De Bourses
+                </a>
+              </h2>
+            </div>
+
+            <a href="news.html" class="btn btn-primary">Voir Plus</a>
+
+          </div> <!-- END widget-->
+
+        </aside> <!-- END col-lg-3 -->
+      </div> <!-- END row-->
+    </div> <!-- END container-->
+  </section> <!-- END section -->
+
 
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 paddingBottom-100">
@@ -359,14 +353,6 @@
   <i class="ti-angle-up"></i>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin="">
-</script>
-<script>
-  var mymap = L.map('map').setView([5.353641429268467, -3.9794007204599025], 13);
-  
-</script>
 <script src="assets/js/vendors.bundle.js"></script>
 <script src="assets/js/scripts.js"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>

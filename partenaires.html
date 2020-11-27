@@ -16,14 +16,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
 
-
-  <!-- Leaflet -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-
-  
-
   <!--Google fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500">
 
@@ -46,13 +38,7 @@
       padding: 0;
       overflow-x: hidden;
     }
-
-
-    #map{
-      height: 20rem;
-    }
   </style>
-
 
 </head>
 
@@ -121,7 +107,7 @@
               <ul class="dropdown-menu">
                 <li><a href="about.html" class="nav-link__list adjust">Notre Université</a></li>
                 <li><a href="accreditation.html" class="nav-link__list adjust">Nos Accreditations</a></li>
-                <li><a href="partenaires.html" class="nav-link__list adjust">Nos Partenaires</a></li>
+                <li><a href="#" class="nav-link__list adjust">Nos Partenaires</a></li>
                 <li><a href="faculte.html" class="nav-link__list adjust">Notre Faculté</a></li>
                 <li><a href="politique.html" class="nav-link__list adjust">Notre Politique</a></li>
               </ul>
@@ -160,7 +146,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link adjust" href="#">CONTACTS</a>
+              <a class="nav-link adjust" href="contact.html">CONTACTS</a>
             </li>
 
           </ul>
@@ -170,139 +156,112 @@
   </nav> <!-- END ec-nav -->
 
 
-
-<div class="py-5 bg-cover" data-dark-overlay="6" style="background:url(assets/img/1920/cover.jpg) no-repeat">
-  <div class="container">
-    <h2 class="text-white">
-      Contactez Nous
-    </h2>
-    <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0">  
-      <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
-      <li class="breadcrumb-item"><a href="#">Contactez Nous</a></li>
-    </ol>
-  </div>
-</div>
-    
-   
-   
-   <div class="py-5 shadow-v2 position-relative">
-     <div class="container">
-       <div class="row">
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-mobile"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">(+225)22 43 32 23 <br> (+225)47 96 65 10</h5>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-email"></i></span>
-             <div class="media-body ml-3">
-              <a href="mailto:info@avide-edu.org" class="h5">info@avide-edu.org</a>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-location-pin"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">Cocody, Riviera 2</h5> 
-              <p>En Face De La Nouvelle Gare De Woro Woro</p>
-             </div>
-           </div>
-         </div>
-         
-       </div>
-     </div>
-   </div>
-   
-   
-   
-   
-  <section class="padding-y-100 bg-light-v2">
-  <div class="container">
-    <div class="row">
-     <div class="col-12 text-center mb-5">
-        <h2>
-          ENVOYER NOUS UN MESSAGE
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
-      </div>
-      <div class="col-12 text-center">
-        <form action="#" method="POST" class="card p-4 p-md-5 shadow-v1">
-          <p class="lead mt-2">
-            Pour toutes vos questions et préoccupations, n'hésitez pas à remplir le formulaire ci-dessous <br>Nous nous ferons un plaisir de vous repondre !
-          </p>
-          <div class="row mt-5 mx-0">
-            <div class="col-md-4 mb-4">
-              <input type="text" class="form-control" placeholder="Nom Complet" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Email" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Numéro de telephone">
-            </div>
-            <div class="col-12">
-              <textarea type="email" class="form-control" placeholder="Votre Message ici" rows="7"></textarea>
-              <button type="submit" class="btn btn-primary mt-4">ENVOYER</button>
-            </div>
-          </div>
-        </form>  
-      </div>
-      
-    </div> <!-- END row-->
-  </div> <!-- END container-->
-</section>
-
-<section class="bg-light-v2">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2>
-           COMMENT NOUS RETROUVER ?
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
+  <div class="py-5 bg-cover text-white" data-dark-overlay="5"
+    style="background:url(assets/img/1920/cover.jpg) no-repeat">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Nos Partenaires</h2>
+        </div>
+        <div class="col-md-6">
+          <ol class="breadcrumb justify-content-md-end bg-transparent">
+            <li class="breadcrumb-item">
+              <a href="index.html">Acceuil</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Nos Partenaires</a>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<div class="col-12 text-center">
-  <div class="card p-4 p-md-5 shadow-v1">
-    <div id="map"></div>
-  </div>
-</div>
-  
+  <!-- LE CONTENU -->
 
-<footer class="site-footer">
-  <div class="footer-top bg-dark text-white-0_6 paddingBottom-100">
+  <section class="pt-5 paddingBottom-150 bg-light-v2">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mt-4">
+          <div class="card">
+            <!-- <img class="card-img-top" src="assets/img/850x500/final.jpg" alt=""> -->
+            <div class="card-body">
+              <h2>
+                <span class="text-primary">NOS PARTENAIRES</span>
+              </h2>
+              <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
+              <p>
+                La liste de nos partenaires en cours...
+              </p>
+            </div> <!-- END card-body-->
+          </div> <!-- END card-->
+        </div> <!-- END col-lg-9 -->
+
+        <aside class="col-lg-3 mt-4">
+
+          <div class="widget">
+            <h2 class="widget-title">
+              Top Evenements
+            </h2>
+            <div class="mb-4">
+              <a href="news-1.html">
+                <img src="assets/img/blog/recent/r1.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-1.html">
+                  Partenariat Avide Education Et Cozbaz
+                </a>
+              </h2>
+            </div>
+            <div class="mb-4">
+              <a href="news-2.html">
+                <img src="assets/img/blog/recent/r2.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-2.html">
+                  Remises Des Diplomes Aux Bachelors
+                </a>
+              </h2>
+            </div>
+
+            <div class="mb-4">
+              <a href="news-3.html">
+                <img src="assets/img/blog/recent/r3.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-3.html">
+                  La Ceremonie De Remise De Bourses
+                </a>
+              </h2>
+            </div>
+
+            <a href="news.html" class="btn btn-primary">Voir Plus</a>
+
+          </div> <!-- END widget-->
+
+        </aside> <!-- END col-lg-3 -->
+      </div> <!-- END row-->
+    </div> <!-- END container-->
+  </section> <!-- END section -->
+
+
+ <footer class="site-footer">
+  <div class="footer-top bg-dark text-white-0_6 paddingBottom-100">
+    <div class="container"> 
       <div class="row">
 
         <div class="col-lg-3 col-md-6 mt-5">
-          <img src="assets/img/logo-white.png" alt="Logo">
-          <div class="margin-y-40">
-            <p style="text-transform: capitalize;">
-              Venez à AVIDE aujourd'hui, rencontrez le succès demain !
-            </p>
-          </div>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary"
-                href="https://www.facebook.com/AvideEducation/"><i class="ti-facebook"> </i></a></li>
-            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary"
-                href="https://www.instagram.com/avideeducation/"><i class="ti-instagram"> </i></a></li>
-            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary"
-                href="https://twitter.com/avideeducation"><i class="ti-twitter"> </i></a></li>
-            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary"
-                href="https://www.youtube.com/channel/UCzIscaDdBddkMS-6fi1448g"><i class="ti-youtube"></i></a></li>
+         <img src="assets/img/logo-white.png" alt="Logo">
+         <div class="margin-y-40">
+           <p style="text-transform: capitalize;">
+            Venez à AVIDE aujourd'hui, rencontrez le succès demain !
+          </p>
+         </div>
+          <ul class="list-inline"> 
+            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary" href="https://www.facebook.com/AvideEducation/"><i class="ti-facebook"> </i></a></li>
+            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary" href="https://www.instagram.com/avideeducation/"><i class="ti-instagram"> </i></a></li>
+            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary" href="https://twitter.com/avideeducation"><i class="ti-twitter"> </i></a></li>
+            <li class="list-inline-item"><a class="iconbox bg-white-0_2 hover:primary" href="https://www.youtube.com/channel/UCzIscaDdBddkMS-6fi1448g"><i class="ti-youtube"></i></a></li>
           </ul>
         </div>
 
@@ -312,17 +271,16 @@
           <ul class="list-unstyled marginTop-40">
             <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+22522433223">(+225) 22 43 32 23</a></li>
             <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+22547966510">(+225) 47 96 65 10</a></li>
-            <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+22554794717">(+225) 54 79 47 17</a></li>
-            <li class="mb-3"><i class="ti-email mr-3"></i><a href="mailto:info@avide-edu.org">info@avide-edu.org</a>
-            </li>
+            <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+22554794717">(+225) 54 79 47 17</a></li> 
+            <li class="mb-3"><i class="ti-email mr-3"></i><a href="mailto:info@avide-edu.org">info@avide-edu.org</a></li>
             <li class="mb-3">
-              <div class="media">
-                <i class="ti-location-pin mt-2 mr-3"></i>
-                <div class="media-body">
-                  <span style="text-transform: capitalize;">Riviera 2, en face de la nouvelle gare de woro woro Riviera
-                    2-Angré</span>
-                </div>
+             <div class="media">
+              <i class="ti-location-pin mt-2 mr-3"></i>
+              <div class="media-body">
+                <span style="text-transform: capitalize;">Riviera 2, en face de la nouvelle gare de woro woro Riviera
+                  2-Angré</span>
               </div>
+             </div>
             </li>
           </ul>
         </div>
@@ -342,7 +300,7 @@
         <div class="col-lg-3 col-md-6 mt-5">
           <div class="elfsight-app-7d8c970b-a0cc-4d92-85c9-b7abdebcec73"></div>
         </div>
-
+        
       </div> <!-- END row-->
     </div> <!-- END container-->
   </div> <!-- END footer-top-->
@@ -351,25 +309,17 @@
     <div class="container">
       <p class="text-white-0_5 mb-0">&copy;Copyright 2020 - AVIDE EDUCATION</p>
     </div>
-  </div> <!-- END footer-bottom-->
+  </div>  <!-- END footer-bottom-->
 </footer> <!-- END site-footer -->
 
 
 <div class="scroll-top">
   <i class="ti-angle-up"></i>
 </div>
-
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin="">
-</script>
-<script>
-  var mymap = L.map('map').setView([5.353641429268467, -3.9794007204599025], 13);
-  
-</script>
-<script src="assets/js/vendors.bundle.js"></script>
-<script src="assets/js/scripts.js"></script>
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-</body>
+     
+    <script src="assets/js/vendors.bundle.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  </body>
 
 </html>

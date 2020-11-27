@@ -16,14 +16,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
 
-
-  <!-- Leaflet -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-
-  
-
   <!--Google fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500">
 
@@ -46,13 +38,7 @@
       padding: 0;
       overflow-x: hidden;
     }
-
-
-    #map{
-      height: 20rem;
-    }
   </style>
-
 
 </head>
 
@@ -148,7 +134,7 @@
               <a class="nav-link dropdown-toggle adjust" data-toggle="dropdown" href="#">ETUDIANTS</a>
               <ul class="dropdown-menu">
                 <li><a href="vie-estudiantine.html" class="nav-link__list adjust">Vie Estudiantine</a></li>
-                <li><a href="centre-apprentissage.html" class="nav-link__list adjust">Centre d'Apprentissage</a></li>
+                <li><a href="#" class="nav-link__list adjust">Centre d'Apprentissage</a></li>
                 <li><a href="developpement-carriere.html" class="nav-link__list adjust">Developpement De Carriere</a>
                 </li>
                 <li><a href="temoignages.html" class="nav-link__list adjust">Temoignages</a></li>
@@ -160,7 +146,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link adjust" href="#">CONTACTS</a>
+              <a class="nav-link adjust" href="contact.html">CONTACTS</a>
             </li>
 
           </ul>
@@ -171,116 +157,192 @@
 
 
 
-<div class="py-5 bg-cover" data-dark-overlay="6" style="background:url(assets/img/1920/cover.jpg) no-repeat">
-  <div class="container">
-    <h2 class="text-white">
-      Contactez Nous
-    </h2>
-    <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0">  
-      <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
-      <li class="breadcrumb-item"><a href="#">Contactez Nous</a></li>
-    </ol>
-  </div>
-</div>
-    
-   
-   
-   <div class="py-5 shadow-v2 position-relative">
-     <div class="container">
-       <div class="row">
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-mobile"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">(+225)22 43 32 23 <br> (+225)47 96 65 10</h5>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-email"></i></span>
-             <div class="media-body ml-3">
-              <a href="mailto:info@avide-edu.org" class="h5">info@avide-edu.org</a>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-location-pin"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">Cocody, Riviera 2</h5> 
-              <p>En Face De La Nouvelle Gare De Woro Woro</p>
-             </div>
-           </div>
-         </div>
-         
-       </div>
-     </div>
-   </div>
-   
-   
-   
-   
-  <section class="padding-y-100 bg-light-v2">
-  <div class="container">
-    <div class="row">
-     <div class="col-12 text-center mb-5">
-        <h2>
-          ENVOYER NOUS UN MESSAGE
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
-      </div>
-      <div class="col-12 text-center">
-        <form action="#" method="POST" class="card p-4 p-md-5 shadow-v1">
-          <p class="lead mt-2">
-            Pour toutes vos questions et préoccupations, n'hésitez pas à remplir le formulaire ci-dessous <br>Nous nous ferons un plaisir de vous repondre !
-          </p>
-          <div class="row mt-5 mx-0">
-            <div class="col-md-4 mb-4">
-              <input type="text" class="form-control" placeholder="Nom Complet" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Email" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Numéro de telephone">
-            </div>
-            <div class="col-12">
-              <textarea type="email" class="form-control" placeholder="Votre Message ici" rows="7"></textarea>
-              <button type="submit" class="btn btn-primary mt-4">ENVOYER</button>
-            </div>
-          </div>
-        </form>  
-      </div>
-      
-    </div> <!-- END row-->
-  </div> <!-- END container-->
-</section>
 
-<section class="bg-light-v2">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2>
-           COMMENT NOUS RETROUVER ?
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
+  <div class="py-5 bg-cover text-white" data-dark-overlay="5"
+    style="background:url(assets/img/1920/cover.jpg) no-repeat">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Centre D'Apprentissage</h2>
+        </div>
+        <div class="col-md-6">
+          <ol class="breadcrumb justify-content-md-end bg-transparent">
+            <li class="breadcrumb-item">
+              <a href="index.html">Acceuil</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Centre D'Apprentissage</a>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<div class="col-12 text-center">
-  <div class="card p-4 p-md-5 shadow-v1">
-    <div id="map"></div>
-  </div>
-</div>
-  
+  <!-- LE CONTENU -->
+
+  <section class="pt-5 paddingBottom-150 bg-light-v2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mt-4">
+          <div class="card">
+            <!-- <img class="card-img-top" src="assets/img/850x500/final.jpg" alt=""> -->
+            <div class="card-body">
+              <h2>
+                <span class="text-primary">NOTRE CENTRE D'APPRENTISSAGE</span>
+              </h2>
+              <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
+              
+
+              <p>
+                AVIDE EDUCATION est une institution centrée sur l'étudiant; qui s'efforce de dispenser un enseignement
+                de haute qualité et de préparer les étudiants au marché du travail. En ce sens, AVIDE EDUCATION a mis en
+                place des mécanismes pour aider les étudiants dans tous leurs cours avec efficacité et efficience. Le
+                centre d'apprentissage a pour objectif de promouvoir le développement intellectuel et social des
+                étudiants.
+              </p>
+
+              <h4 class="text-primary">I. Objectifs</h4>
+              <p>
+                              
+              <p>
+                L'objectif principal du centre est d'aider les étudiants à développer les compétences académiques et
+                personnelles nécessaires pour réussir dans l'environnement académique et au-delà. Plus précisément, le
+                centre va:
+              </p>
+              
+              <ul class="list-unstyled list-style-icon list-icon-bullet">
+                <li>soutenir le développement de talents individuels;</li>
+                <li>être responsable de faciliter l'apprentissage académique;</li>
+                <li>développer la pensée critique et les compétences en lecture des étudiants;</li>
+                <li>donner aux étudiants divers conseils pour gérer leur temps;</li>
+                <li>aider les étudiants à développer leurs techniques de présentation;</li>
+                <li>revoir les astuces d'apprentissage efficaces;</li>
+                <li>aider les étudiants à se préparer aux examens;</li>
+                <li>propose une supervision sociale et un mentorat aux nouveaux étudiants;</li>
+                <li>aider les étudiants plus âgés à trouver un emploi.</li>
+              </ul>
+
+              <p>
+                Dans l'ensemble, le centre est conçu pour permettre aux étudiants de devenir des apprenants
+                indépendants.
+              </p>
+              
+        
+              <h4 class="text-primary">II. Les Services</h4>
+              
+              <p>Le centre comportera une composante académique et une composante carrière.</p>
+              
+              <h5 class="text-primary">II.1 Services académiques:</h5>
+              
+              <p>
+                Le centre d'apprentissage offrira un programme gratuit de tutorat par les pairs afin de renforcer les
+                étudiants dans les cours dans lesquels ils rencontrent des difficultés. Une fois par semaine, le
+                tuteur
+                devra rencontrer le ou les étudiants pour examiner le contenu du cours, lui montrer les stratégies
+                d'apprentissage et aider avec préparation aux examens.
+              </p>
+
+              <p>
+                En outre, il y aura également des sessions d'étude en groupe. Contrairement aux tutoriels individuels,
+                ce type de programme permet aux étudiants leaders de rencontrer un petit groupe d'étudiants une fois
+                par
+                semaine. Dans les sessions, le responsable du groupe d'étudiants utilise une approche participative
+                basée sur la dynamique du groupe d'étude pour analyser et synthétiser le matériel de cours. Il restera
+                également à la disposition de ses pairs pour répondre aux besoins individuels des participants au
+                groupe
+                d'étude. Cette forme de support d'apprentissage constitue une excellente introduction à la profession
+                d'enseignant.
+              </p>
+              
+              <p>
+                Les sessions de tutorat par les pairs et les groupes d'étude dirigés sont des étudiants qui ont non
+                seulement obtenu de bons résultats, c'est-à-dire au moins B + dans les éléments enseignés et une
+                moyenne
+                de B dans l'ensemble, mais qui ont de bonnes compétences interpersonnelles et qui sont motivés par le
+                désir d'aider les autres. Ils seront tenus d'assister aux séances d'orientation et à la formation. En
+                considération des services rendus, et ils seront payés à l'avenir, nous devrions envisager la
+                possibilité d'allouer des fonds pour ces services éducatifs.
+              </p>
+
+              <p>
+                Enfin, le centre disposera également d'un système d'alerte précoce: avant les examens de mi-session,
+                le
+                centre identifiera les étudiants en difficulté dans chaque cours et leur demandera de demander de
+                l'aide. Ces derniers seront dirigés vers le groupe d'étude adéquat.
+              </p>
+
+              <h5 class="text-primary">II.2 Services de Carrière:</h5>
+              
+
+              <p>
+                AVIDE propose des diplômes de qualité destinés à préparer les étudiants à faire face au marché du
+                travail aux niveaux local, régional et international. Pour les étudiants juniors et seniors, le centre
+                sera chargé d'aider à planifier leur développement personnel non seulement pour trouver un emploi
+                après
+                leur formation, mais également pour mieux comprendre leur projet professionnel. En tant que tel, le
+                centre servira de plate-forme pour les offres d'emploi et de terrain d'information pour les étudiants
+                qui sont prêts à commencer à travailler. Globalement, les services offerts comprendront:
+              </p>
+
+              <ul class="list-unstyled list-style-icon list-icon-bullet">
+                <li>des ateliers sur la rédaction d'un CV et des astuces pour les entretiens;</li>
+                <li>des salons de l'emploi et des occasions de rencontrer des employeurs potentiels et de discuter avec eux;</li>
+                <li>offres d'emploi: stages et travail à temps plein;</li>
+                <li>soutien pour projets entrepreneurials.</li>
+              </ul>
+
+            </div> <!-- END card-body-->
+          </div> <!-- END card-->
+        </div> <!-- END col-lg-9 -->
+
+        <aside class="col-lg-3 mt-4">
+
+          <div class="widget">
+            <h2 class="widget-title">
+              Top Evenements
+            </h2>
+            <div class="mb-4">
+              <a href="news-1.html">
+                <img src="assets/img/blog/recent/r1.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-1.html">
+                  Partenariat Avide Education Et Cozbaz
+                </a>
+              </h2>
+            </div>
+            <div class="mb-4">
+              <a href="news-2.html">
+                <img src="assets/img/blog/recent/r2.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-2.html">
+                  Remises Des Diplomes Aux Bachelors
+                </a>
+              </h2>
+            </div>
+
+            <div class="mb-4">
+              <a href="news-3.html">
+                <img src="assets/img/blog/recent/r3.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-3.html">
+                  La Ceremonie De Remise De Bourses
+                </a>
+              </h2>
+            </div>
+
+            <a href="news.html" class="btn btn-primary">Voir Plus</a>
+
+          </div> <!-- END widget-->
+
+        </aside> <!-- END col-lg-3 -->
+      </div> <!-- END row-->
+    </div> <!-- END container-->
+  </section> <!-- END section -->
+
 
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 paddingBottom-100">
@@ -359,14 +421,6 @@
   <i class="ti-angle-up"></i>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin="">
-</script>
-<script>
-  var mymap = L.map('map').setView([5.353641429268467, -3.9794007204599025], 13);
-  
-</script>
 <script src="assets/js/vendors.bundle.js"></script>
 <script src="assets/js/scripts.js"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>

@@ -16,14 +16,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
 
-
-  <!-- Leaflet -->
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-
-  
-
   <!--Google fonts-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500">
 
@@ -46,13 +38,7 @@
       padding: 0;
       overflow-x: hidden;
     }
-
-
-    #map{
-      height: 20rem;
-    }
   </style>
-
 
 </head>
 
@@ -151,7 +137,7 @@
                 <li><a href="centre-apprentissage.html" class="nav-link__list adjust">Centre d'Apprentissage</a></li>
                 <li><a href="developpement-carriere.html" class="nav-link__list adjust">Developpement De Carriere</a>
                 </li>
-                <li><a href="temoignages.html" class="nav-link__list adjust">Temoignages</a></li>
+                <li><a href="#" class="nav-link__list adjust">Temoignages</a></li>
               </ul>
             </li>
 
@@ -160,7 +146,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link adjust" href="#">CONTACTS</a>
+              <a class="nav-link adjust" href="contact.html">CONTACTS</a>
             </li>
 
           </ul>
@@ -169,118 +155,167 @@
     </div> <!-- END container-->
   </nav> <!-- END ec-nav -->
 
-
-
-<div class="py-5 bg-cover" data-dark-overlay="6" style="background:url(assets/img/1920/cover.jpg) no-repeat">
-  <div class="container">
-    <h2 class="text-white">
-      Contactez Nous
-    </h2>
-    <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0">  
-      <li class="breadcrumb-item"><a href="index.html">Acceuil</a></li>
-      <li class="breadcrumb-item"><a href="#">Contactez Nous</a></li>
-    </ol>
-  </div>
-</div>
-    
-   
-   
-   <div class="py-5 shadow-v2 position-relative">
-     <div class="container">
-       <div class="row">
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-mobile"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">(+225)22 43 32 23 <br> (+225)47 96 65 10</h5>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-email"></i></span>
-             <div class="media-body ml-3">
-              <a href="mailto:info@avide-edu.org" class="h5">info@avide-edu.org</a>
-              <p>Disponible Les Jours Ouvrables De 8H à 18H</p>
-             </div>
-           </div>
-         </div>
-        
-         <div class="col-lg-4 col-md-6 mt-4">
-           <div class="media">
-             <span class="iconbox iconbox-md bg-primary text-white"><i class="ti-location-pin"></i></span>
-             <div class="media-body ml-3">
-              <h5 class="mb-0">Cocody, Riviera 2</h5> 
-              <p>En Face De La Nouvelle Gare De Woro Woro</p>
-             </div>
-           </div>
-         </div>
-         
-       </div>
-     </div>
-   </div>
-   
-   
-   
-   
-  <section class="padding-y-100 bg-light-v2">
-  <div class="container">
-    <div class="row">
-     <div class="col-12 text-center mb-5">
-        <h2>
-          ENVOYER NOUS UN MESSAGE
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
-      </div>
-      <div class="col-12 text-center">
-        <form action="#" method="POST" class="card p-4 p-md-5 shadow-v1">
-          <p class="lead mt-2">
-            Pour toutes vos questions et préoccupations, n'hésitez pas à remplir le formulaire ci-dessous <br>Nous nous ferons un plaisir de vous repondre !
-          </p>
-          <div class="row mt-5 mx-0">
-            <div class="col-md-4 mb-4">
-              <input type="text" class="form-control" placeholder="Nom Complet" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Email" required>
-            </div>
-            <div class="col-md-4 mb-4">
-              <input type="email" class="form-control" placeholder="Numéro de telephone">
-            </div>
-            <div class="col-12">
-              <textarea type="email" class="form-control" placeholder="Votre Message ici" rows="7"></textarea>
-              <button type="submit" class="btn btn-primary mt-4">ENVOYER</button>
-            </div>
-          </div>
-        </form>  
-      </div>
-      
-    </div> <!-- END row-->
-  </div> <!-- END container-->
-</section>
-
-<section class="bg-light-v2">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2>
-           COMMENT NOUS RETROUVER ?
-        </h2>
-        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
+  <div class="py-5 bg-cover text-white" data-dark-overlay="5"
+    style="background:url(assets/img/1920/cover.jpg) no-repeat">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Témoignages</h2>
+        </div>
+        <div class="col-md-6">
+          <ol class="breadcrumb justify-content-md-end bg-transparent">
+            <li class="breadcrumb-item">
+              <a href="index.html">Acceuil</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Témoignages</a>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<div class="col-12 text-center">
-  <div class="card p-4 p-md-5 shadow-v1">
-    <div id="map"></div>
-  </div>
-</div>
-  
+  <!-- LE CONTENU -->
+
+  <section class="pt-5 paddingBottom-150 bg-light-v2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mt-4">
+          <div class="card">
+            <!-- <img class="card-img-top" src="assets/img/850x500/final.jpg" alt=""> -->
+            <div class="card-body">
+              <h2>
+                <span class="text-primary">LES TEMOIGNAGES DE NOS ELEVES</span>
+              </h2>
+              <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
+              <p>
+                AVIDE est accrédité au niveau national par le gouvernement de la Côte d'Ivoire pour
+                offrir des diplômes
+                techniques et professionnels qui sont conçus pour aider les étudiants à être
+                immédiatement opérationnels
+                après leurs études universitaires.
+              </p>
+
+              <p>
+                Vous trouverez ci-dessous les témoignages d'étudiants inscrits à AVIDE Education.
+              </p>
+
+              <h4 class="text-primary">Témoignage n ° 1: Kate ACHY</h4>
+
+              <em>Étudiante en Business Technologie de l'Information à AVIDE</em>
+              <p>
+                <br>
+                Je suis une Américaine et j'ai fait mes études secondaires dans une école américaine appelée Jin-A
+                School. Mon plan initial était de rentrer en Amérique pour aller à l'université, mais comme j'étais trop
+                jeune, mes parents voulaient que je reste en Côte d'Ivoire. Un jour, AVIDE Edcation a visité Jin-A
+                School et j'ai été captivé. J'ai parlé de l'école avec mes parents et je me suis inscrite. Ce qui nous a
+                vraiment fait choisir AVIDE est le diplôme britannique authentique obtenu à la fin du cycle, ce qui
+                signifie que nous n'avons pas à dépenser beaucoup d'argent pour obtenir un diplôme pour lequel nous
+                aurions déboursé des milliers de dollars. En tant qu'étudiant à AVIDE, j'apprécie le fait que le
+                processus d'apprentissage ne soit pas seulement en classe, mais aussi à la maison et dans le monde réel.
+                Nous mettons à profit et apprenons d'avantage des choses grâce à des stages et en poussant les étudiants
+                à prendre des initiatives.
+              </p>
+
+              <h4 class="text-primary">Témoignage n ° 2: Raheem DIALLO</h4>
+              <em>Étudiant en administration des affaires transféré à Sunderland University, Londres</em>
+              <p>
+                <br>
+                Après avoir passé tout mon parcours à l'école secondaire de Lycée Français Blaise Pascal, j'avais décidé
+                d'aller aux États-Unis. Mon temps était plutôt court, car j'ai passé qu'un an à Virginia Commonwealth
+                University. Je ne connaissais pas très bien le système; j'ai donc choisi de passer au système
+                britannique. C'est ainsi que j'ai abouti chez AVIDE Education dans mon pays d'origine. J'ai passé une
+                année réussie avec un système éducatif de qualité. Ils m'ont aidé pendant tout mon temps là-bas et
+                étaient très professionnels. Grâce à la note obtenue à AVIDE / NCC Education, j'ai postulé à
+                l'Université de Sunderland à Londres. Actuellement, je suis à Londres pour mon diplôme de Level 5 en
+                Business et Management.
+              </p>
+
+              <h4 class="text-primary">Témoignage n ° 3: Orlane BOSSE</h4>
+              <em>Étudiante en Business à AVIDE</em>
+              <p>
+                <br>
+                Après avoir obtenu mon baccalauréat, l'équivalent dans le système éducatif français d'un diplôme
+                d'études secondaires, au Lycée Saint Viateur d'Abidjan, j'ai commencé à chercher une bonne école
+                anglo-saxonne où je pouvais poursuivre mes études. Les écoles anglo-saxonnes m'intéressaient
+                particulièrement car l'obtention d'un diplôme d'anglais était pour moi une nécessité et une obligation.
+                Dans mon pays d'Abidjan, j'ai fréquenté de nombreuses universités, mais j'ai été incapable de trouver
+                une école correspondant à ce que je cherchais en termes de qualité d'enseignement. C'est à ce moment-là
+                qu'un de mes amis m'a parlé d'AVIDE Education et des programmes proposés. Et avec cela, j'ai décidé de
+                visiter l'école pour recueillir plus d'informations. C'est à ce moment que j'ai été captivé par l'école
+                et séduit par le climat de convivialité que j'ai trouvé là-bas. Je me suis inscrit car AVIDE était la
+                seule école répondant à tous mes critères. Grâce à cette université, j'ai pu augmenter mon niveau
+                d'anglais, ce qui, à mon avis, ne se produirait jamais. Je suis heureux d'avoir trouvé cette école et de
+                faire partie de l'établissement car il représente un modèle d'excellence en lui-même.
+              </p>
+
+              <h4 class="text-primary">Témoignage n ° 4: Keelan ACHY</h4>
+              <em>Étudiant en Business Technologie de l'Information à AVIDE</em>
+              <p>
+                <br>
+                Après avoir terminé mes études secondaires à l'école américaine Jin-A School et obtenu mon diplôme
+                d'études secondaires, ma famille m'a persuadé de participer au concours de bourses d'études d'AVIDE.
+                Heureusement, j'ai remporté le concours de bourses et a été accordé une bourse d'études complète. Je
+                n'avais que 15 ans à l'époque et j'ai donc décidé de m'inscrire à AVIDE. Maintenant à AVIDE Education,
+                où j'étudie en Business IT, je suis plus qu'heureux de faire partie de l'université, car elle enseigne
+                aux étudiants de manière unique et épanouissante en leur demandant d'appliquer ce qu'ils ont appris à
+                leur environnement extra-scolaire. On nous apprend à aller au-delà de ce qu'on nous enseigne en classe
+                et à être proactif et actif dans notre travail. Je peux affirmer sans crainte que grâce à AVIDE, mon
+                état d'esprit a mûri et je suis fier de ce que je deviens en tant que personne.
+              </p>
+
+            </div> <!-- END card-body-->
+          </div> <!-- END card-->
+        </div> <!-- END col-lg-9 -->
+
+        <aside class="col-lg-3 mt-4">
+
+          <div class="widget">
+            <h2 class="widget-title">
+              Top Evenements
+            </h2>
+            <div class="mb-4">
+              <a href="news-1.html">
+                <img src="assets/img/blog/recent/r1.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-1.html">
+                  Partenariat Avide Education Et Cozbaz
+                </a>
+              </h2>
+            </div>
+            <div class="mb-4">
+              <a href="news-2.html">
+                <img src="assets/img/blog/recent/r2.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-2.html">
+                  Remises Des Diplomes Aux Bachelors
+                </a>
+              </h2>
+            </div>
+
+            <div class="mb-4">
+              <a href="news-3.html">
+                <img src="assets/img/blog/recent/r3.jpg" alt="">
+              </a>
+              <h2 class="font-size-16 mt-2">
+                <a href="news-3.html">
+                  La Ceremonie De Remise De Bourses
+                </a>
+              </h2>
+            </div>
+
+            <a href="news.html" class="btn btn-primary">Voir Plus</a>
+
+          </div> <!-- END widget-->
+
+        </aside> <!-- END col-lg-3 -->
+      </div> <!-- END row-->
+    </div> <!-- END container-->
+  </section> <!-- END section -->
+
 
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 paddingBottom-100">
@@ -359,14 +394,6 @@
   <i class="ti-angle-up"></i>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin="">
-</script>
-<script>
-  var mymap = L.map('map').setView([5.353641429268467, -3.9794007204599025], 13);
-  
-</script>
 <script src="assets/js/vendors.bundle.js"></script>
 <script src="assets/js/scripts.js"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
